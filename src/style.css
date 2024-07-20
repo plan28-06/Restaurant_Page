@@ -30,3 +30,8 @@ button{
     padding: 15px;
     font-weight:500;
 }
+
+.container{
+    background-image: url("/imgs/img.png");
+    background-size: cover;
+}
