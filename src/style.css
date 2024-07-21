@@ -50,7 +50,7 @@ button{
     height: inherit;
 }
 .homepage{
-    background-image: url("./imgs/restaurant.png");
+    background-image: url("../src/imgs/restaurant.png");
     background-repeat: no-repeat;
     background-size:1000px;
     background-position-y: top;
