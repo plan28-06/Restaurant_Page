@@ -146,7 +146,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   loadMenuPage: () => (/* binding */ loadMenuPage)\n/* harmony export */ });\nfunction loadMenuPage(){\r\n    if (container.classList[0]=='homepage'){\r\n        container.classList.toggle('homepage');\r\n    }\r\n    while (container.firstChild) {\r\n        container.removeChild(container.firstChild);\r\n    }\r\n    const img= document.createElement('img');\r\n    img.setAttribute('src','../src/imgs/menuimg.png');\r\n    img.setAttribute('height','600px');\r\n    img.setAttribute('width','1000px');\r\n    img.setAttribute('alt','Menu');\r\n    container.appendChild(img)\r\n}\n\n//# sourceURL=webpack://restaurant_page/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   loadMenuPage: () => (/* binding */ loadMenuPage)\n/* harmony export */ });\nfunction loadMenuPage(){\r\n    if (container.classList[0]=='homepage'){\r\n        container.classList.toggle('homepage');\r\n    }\r\n    while (container.firstChild) {\r\n        container.removeChild(container.firstChild);\r\n    }\r\n    const img= document.createElement('img');\r\n    img.setAttribute('src','./src/imgs/menuimg.png');\r\n    img.setAttribute('height','600px');\r\n    img.setAttribute('width','1000px');\r\n    img.setAttribute('alt','Menu');\r\n    container.appendChild(img)\r\n}\n\n//# sourceURL=webpack://restaurant_page/./src/menu.js?");
 
 /***/ }),
 
