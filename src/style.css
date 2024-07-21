@@ -3,20 +3,24 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
     font-family: "Core Deco W00 A3",sans-serif;
     background-color: rgb(248, 248, 234);
 }
 
+html{
+    height:100%;
+    width: 100%;
+}
+
 body{
-    height:100vh;
-    width: 100vw;
-    overflow-y: hidden; 
-    overflow-x: hidden; 
+    height:100%;
+    width: 100%;
+    overflow-y: clip; 
+    overflow-x: clip; 
 }
 
 
-p{
+.header>p{
     font-size: 90px;
 }
 
@@ -40,11 +44,35 @@ button{
     outline: none;
 }
 
+#container{
+    line-height: 23px;
+    padding: 30px;
+    height: inherit;
+}
 .homepage{
-    height: 100%;
     background-image: url("./imgs/restaurant.png");
     background-repeat: no-repeat;
     background-size:1000px;
     background-position-y: top;
-    background-position-x:center ;
+    background-position-x:center;
+}
+
+.menupage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menupage>img{
+    margin-bottom: 250px;
+}
+
+#container>p{
+    font-size: 26px;
+    font-weight: 550;
+}
+
+.timings{
+    justify-content: space-evenly;
+    font-size: 24px;
 }
